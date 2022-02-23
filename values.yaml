@@ -7,6 +7,8 @@
 
 # Minimal settings
 global:
+  version: 14.5.4
+  edition: ce
   ingress:
     configureCertmanager: false
     class: "nginx"
