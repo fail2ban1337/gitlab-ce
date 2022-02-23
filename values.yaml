@@ -35,6 +35,9 @@ prometheus:
 gitlab-runner:
   install: false
 # Reduce replica counts, reducing CPU & memory requirements
+gitaly:
+   enabled: true
+
 gitlab:
   webservice:
     minReplicas: 1
