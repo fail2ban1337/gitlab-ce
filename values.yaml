@@ -39,9 +39,6 @@ gitlab:
   webservice:
     minReplicas: 1
     maxReplicas: 1
-    resources:
-      requests:
-        memory: 1G
     puma:
       threads:
         min: 1
