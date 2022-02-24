@@ -35,8 +35,6 @@ prometheus:
 gitlab-runner:
   install: false
 # Reduce replica counts, reducing CPU & memory requirements
-gitaly:
-   enabled: false
 
 gitlab:
   gitaly:
