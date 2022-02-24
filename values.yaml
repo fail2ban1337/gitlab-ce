@@ -39,10 +39,9 @@ gitaly:
    enabled: false
 
 gitlab:
+  gitaly:
+    enabled: false
   webservice:
-    resources:
-      requests:
-        memory: 1G
     minReplicas: 1
     maxReplicas: 1
     puma:
