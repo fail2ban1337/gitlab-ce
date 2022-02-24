@@ -37,8 +37,6 @@ gitlab-runner:
 # Reduce replica counts, reducing CPU & memory requirements
 
 gitlab:
-  gitaly:
-    enabled: false
   webservice:
     minReplicas: 1
     maxReplicas: 1
