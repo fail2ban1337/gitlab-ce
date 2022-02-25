@@ -47,7 +47,7 @@ gitlab:
   sidekiq:
     minReplicas: 1
     maxReplicas: 1
-    concurrency: 10
+    concurrency: 4
   gitlab-shell:
     minReplicas: 1
     maxReplicas: 1
